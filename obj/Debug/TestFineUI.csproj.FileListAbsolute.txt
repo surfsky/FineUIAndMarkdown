@@ -16,3 +16,11 @@ C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUI-Offical\4.2.3\FineUIAndMarkdown
 C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUI-Offical\4.2.3\FineUIAndMarkdown\FineUIAndMarkdown\obj\Debug\TestFineUI.csprojResolveAssemblyReference.cache
 C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUI-Offical\4.2.3\FineUIAndMarkdown\FineUIAndMarkdown\obj\Debug\TestFineUI.dll
 C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUI-Offical\4.2.3\FineUIAndMarkdown\FineUIAndMarkdown\obj\Debug\TestFineUI.pdb
+C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUIAndMarkdown\FineUIAndMarkdown\bin\TestFineUI.dll.config
+C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUIAndMarkdown\FineUIAndMarkdown\bin\TestFineUI.dll
+C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUIAndMarkdown\FineUIAndMarkdown\bin\TestFineUI.pdb
+C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUIAndMarkdown\FineUIAndMarkdown\bin\FineUI.xml
+C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUIAndMarkdown\FineUIAndMarkdown\bin\Newtonsoft.Json.xml
+C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUIAndMarkdown\FineUIAndMarkdown\obj\Debug\TestFineUI.csprojResolveAssemblyReference.cache
+C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUIAndMarkdown\FineUIAndMarkdown\obj\Debug\TestFineUI.dll
+C:\Dev\Dev\Dev-Surfsky\2016\160427.FineUI\FineUIAndMarkdown\FineUIAndMarkdown\obj\Debug\TestFineUI.pdb

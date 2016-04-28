@@ -23,7 +23,16 @@
             height: 640,
             path : './editor.md/lib/',
             watch : false,
-            toolbarIcons : function() {
+            tex: true,
+            tocm: true,
+            emoji: true,
+            taskList: true,
+            codeFold: true,
+            searchReplace: true,
+            flowChart: true,
+            sequenceDiagram: true,
+            htmlDecode: "style,script,iframe",
+            toolbarIcons: function () {
                 return [
                         "h1", "h2", "h3", "|", 
                         "bold", "del", "italic", "quote", "|", 

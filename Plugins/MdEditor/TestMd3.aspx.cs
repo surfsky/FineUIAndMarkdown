@@ -19,6 +19,7 @@ namespace TestFineUI.Plugins.MdEditor
             }
         }
 
+        // 设置编辑器值
         protected void btnSet_Click(object sender, EventArgs e)
         {
             // 直接操作 textarea 失败
@@ -29,6 +30,7 @@ namespace TestFineUI.Plugins.MdEditor
             PageContext.RegisterStartupScript(String.Format("updateEditor({0});", JsHelper.Enquote(content)));
         }
 
+        // 获取编辑器值
         protected void btnGet_Click(object sender, EventArgs e)
         {
             Alert.ShowInTop(HttpUtility.HtmlEncode(edtArea.Value));

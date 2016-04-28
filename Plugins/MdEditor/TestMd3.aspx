@@ -21,7 +21,7 @@
                 <f:TextBox ID="tbTitle" Label="标题"  runat="server" />
                 <f:DatePicker runat="server" Label="开始日期" DateFormatString="yyyy-MM-dd" EmptyText="请选择日期" ID="DatePicker1" ShowRedStar="True" />
                 <f:ContentPanel ID="ContentPanel1" CssStyle="padding-left:65px;"  runat="server" ShowBorder="false" ShowHeader="false">
-                    <div id="edt" runat="server" >
+                    <div id="edt">
                         <textarea runat="server" id="edtArea" />
                     </div>
                 </f:ContentPanel>
@@ -36,7 +36,7 @@
     <script type="text/javascript">
         var editor;
         $(function() {
-            editor = editormd("<%=edt.ClientID%>", {
+            editor = editormd("edt", {
                 width: "100%",
                 height: 400,
                 path : './editor.md/lib/',

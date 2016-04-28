@@ -11,7 +11,9 @@
     <form id="form1" runat="server">
         <asp:Button runat="server" ID="btnSet" Text="Set" OnClick="btnSet_Click" />
         <asp:Button runat="server" ID="btnGet" Text="Get" OnClick="btnGet_Click"/>
-        <div id="edt" style="width:100%" />
+        <div id="edt" style="width:100%" >
+            <textarea runat="server" id="edtArea" />
+        </div>
         <br/>
     </form>
 

@@ -12,27 +12,17 @@ namespace TestFineUI.Plugins.MdEditor
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
-            {
-                // 初始化失败，估计是位置不对，但不知道怎么将脚本注册到html最后
-                string script = "editor.setMarkdown('## helloworld');";
-                ScriptManager.RegisterStartupScript(this, typeof(string), "script", script, true);
-                //ScriptManager.RegisterClientScriptBlock(this, typeof(string), "script", script, true);
-            }
+                this.edtArea.InnerText = "## hello world";
         }
 
         protected void btnSet_Click(object sender, EventArgs e)
         {
-            // 设置失败，估计是位置不对，但不知道怎么将脚本注册到html最后
-            string script = "editor.setMarkdown('## helloworld');";
-            //ScriptManager.RegisterClientScriptBlock(this, typeof(string), "script", script, true);
-            ScriptManager.RegisterStartupScript(this, typeof(string), "script", script, true);
+            this.edtArea.InnerText = "## This is title";
         }
 
         protected void btnGet_Click(object sender, EventArgs e)
         {
-            // 获取成功，但成功后编辑器内容又清空了
-            string txt = Request["edt-markdown-doc"].ToString();
-            Kingsoc.Web.ScriptHelper.Alert(txt);
+            Response.Write(edtArea.InnerText);
         }
     }
 }

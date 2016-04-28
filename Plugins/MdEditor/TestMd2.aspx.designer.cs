@@ -10,7 +10,7 @@
 namespace TestFineUI.Plugins.MdEditor {
     
     
-    public partial class TestMd2{
+    public partial class TestMd2 {
         
         /// <summary>
         /// form1 控件。
@@ -38,5 +38,14 @@ namespace TestFineUI.Plugins.MdEditor {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnGet;
+        
+        /// <summary>
+        /// edtArea 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea edtArea;
     }
 }

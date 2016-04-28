@@ -75,7 +75,7 @@
                                     <f:TreeNode Text="登录页面" NavigateUrl="~/login.aspx"></f:TreeNode>
                                     <f:TreeNode Text="MdEditor-fineui(ok)" NavigateUrl="~/plugins/MdEditor/TestMd3.aspx"></f:TreeNode>
                                     <f:TreeNode Text="MdEditor-js(ok)"     NavigateUrl="~/plugins/MdEditor/TestMd1.html"></f:TreeNode>
-                                    <f:TreeNode Text="MdEditor-net(fail)"  NavigateUrl="~/plugins/MdEditor/TestMd2.aspx"></f:TreeNode>
+                                    <f:TreeNode Text="MdEditor-net(ok)"    NavigateUrl="~/plugins/MdEditor/TestMd2.aspx"></f:TreeNode>
                                     <f:TreeNode Text="CkEditor-fineui(fail)" NavigateUrl="~/plugins/CKEditor/ckeditor.aspx"></f:TreeNode>
                                 </f:TreeNode>
                             </Nodes>

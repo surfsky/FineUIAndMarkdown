@@ -31,13 +31,7 @@ namespace TestFineUI.Plugins.MdEditor
 
         protected void btnGet_Click(object sender, EventArgs e)
         {
-            // string id = string.Format("{0}-markdown-doc", this.edt.ClientID);
-            string id = edtArea.ClientID.Replace('_', '$');  // 表单提交过来就是这个名称，不是用ClientID
-            string txt = Request.Form[id];
-            if (String.IsNullOrEmpty(txt))
-                Alert.ShowInTop("编辑器内容为空！");
-            else
-                Alert.ShowInTop(HttpUtility.HtmlEncode(txt));
+            Alert.ShowInTop(HttpUtility.HtmlEncode(edtArea.Value));
         }
     }
 }
